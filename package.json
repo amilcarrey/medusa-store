@@ -8,6 +8,7 @@
     "medusa-storefront"
   ],
   "scripts": {
+    "initial": "pnpm install -g @medusajs/medusa-cli && medusa new medusa-server --seed && cd medusa-server && medusa develop",
     "dev": "next dev -p 8000",
     "build": "next build",
     "start": "next start -p 8000",
